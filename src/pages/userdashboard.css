@@ -1,0 +1,93 @@
+/* ComplaintForm.css */
+.divb1{
+    background-image: url('https://wallpapers-clan.com/wp-content/uploads/2024/03/nezuko-glowing-eyes-demon-slayer-gif-desktop-wallpaper-preview.gif');
+}
+.complaint-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #4622445c;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .complaint-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fdf5f5;
+  }
+  
+  .complaint-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #f6f3f3;
+  }
+  
+  .complaint-form input[type="text"],
+  .complaint-form input[type="email"],
+  .complaint-form select,
+  .complaint-form textarea,
+  .complaint-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .complaint-form input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .complaint-form div {
+    margin-bottom: 15px;
+  }
+  
+  .complaint-form button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .complaint-form button:hover {
+    background-color: #218838;
+  }
+  
+  .complaint-form textarea {
+    height: 120px;
+    resize: none;
+  }
+  
+  .complaint-form .radio-group {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .complaint-form p {
+    text-align: center;
+    font-size: 18px;
+    color: #28a745;
+  }
+  
+  @media (max-width: 768px) {
+    .complaint-form {
+      padding: 15px;
+    }
+  
+    .complaint-form button {
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+  

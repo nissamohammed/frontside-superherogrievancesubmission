@@ -1,0 +1,125 @@
+
+.admin-dashboard {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #610678ec;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .admin-dashboard {
+      max-width: 100%;
+      padding: 10px;
+      margin: 20px auto;
+  }
+
+  .complaint-table {
+      display: block;
+      width: 100%;
+      overflow-x: auto; /* Scroll horizontally on small screens */
+  }
+
+  .complaint-table th, 
+  .complaint-table td {
+      padding: 8px;
+      font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .accept-btn,
+  .reject-btn {
+      padding: 6px 12px;
+      font-size: 12px;
+  }
+
+  .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px; /* Add spacing between filter elements */
+      font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .filters label {
+      margin-right: 5px;
+  }
+
+  select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      font-size: 14px;
+  }
+}
+
+.adminbg {
+  background-image: url('https://i.pinimg.com/originals/c4/05/e5/c405e59f2114f36defe07f92a771d9a5.gif');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Ensure background covers full height */
+}
+
+.admin-dashboard h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.complaint-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.complaint-table th,
+.complaint-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.complaint-table th {
+  /*background-color: #f2f2f2;*/
+  background-color: #000000b8;
+}
+
+.accept-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.reject-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.accept-btn:hover {
+  background-color: #218838;
+}
+
+.reject-btn:hover {
+  background-color: #c82333;
+}
+
+/*style for the filter section */
+.filters {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.filters select {
+  padding: 5px;
+}
+

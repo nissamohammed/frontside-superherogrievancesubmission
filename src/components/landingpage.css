@@ -1,0 +1,141 @@
+.outer_div{
+    background-image: url('https://wallpapers-clan.com/wp-content/uploads/2024/03/nezuko-glowing-eyes-demon-slayer-gif-desktop-wallpaper-preview.gif');
+    height: 740px;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*background-color: rgba(84, 5, 91, 0.344);*/
+}
+nav .logo{
+    width: 30px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 45px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: azure;
+}
+
+.content{
+    text-align: center;
+    margin-top: -500px;
+
+}
+.content h1{
+    font-size: 160px;
+    color:#fff;
+    font-weight: 600;
+}
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius:  50px;
+    margin-top: 20px;
+}
+.content a:hover{
+    background-color: #f3eef49f;
+    color: black;
+}
+.about_div{
+    margin-top: 400px;
+  
+}
+
+.labelee{
+    margin-left: 300px;
+}
+.imagelogo{
+    animation: zoom-in-zoom-out 1s ease infinite;
+
+}
+
+@keyframes zoom-in-zoom-out {
+   /* 0% {
+        transform: rotate(0deg);
+      }
+      50% {
+        transform: rotate(180deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }*/
+
+    
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.1, 1.1);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+/*contact form*/
+.contactheaddiv{
+  margin-left: 150px;
+}
+  .contactgifimage{
+    margin-top: -200px;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+ /* Mobile Responsiveness */
+@media (max-width: 600px) {
+  .imagelogo{
+    width: 70px;
+    height: 70px;
+  }
+    .content {
+      padding: 10px ;
+    }
+    .content h1{
+      font-size: 100px;
+    }
+    .outer_div{
+      width:auto   }
+    .listhead{
+      visibility: hidden;
+    }
+    .listlogin{
+      font-size: x-large;
+      margin-left: 80px;
+    }
+    .contactgifimage{
+      width: 25%;
+      margin-left: 20px;
+    }
+    .contactinfo{
+      visibility: hidden;
+      margin-left: -150px;
+    }
+    .contactform{
+      margin: 10px 10px 20px -125px;
+      
+    }
+    .contactheaddiv{
+      margin-left: 20px;
+    }
+    
+}
+
